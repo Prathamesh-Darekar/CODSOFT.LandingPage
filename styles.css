@@ -1,0 +1,189 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EBEEB1;    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#navbar{
+    height:3rem;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top:0;
+    font-size: 1.5rem;
+    background-color: #F9A13E;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.flex ul li a{
+    text-decoration: none;
+    font-size:1.2rem;
+    color:black;
+}
+
+#navbar li{
+    list-style: none;
+    padding:5px 10px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+#navbar li:hover{
+    border: 2px solid blueviolet;
+}
+header{
+    height:500px;
+    margin-top:3rem;
+    width:100%;
+    background-color:#F9A13E;
+}
+
+.content{
+    width:30rem;
+    margin-left: 8rem;
+    padding:auto 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content b{
+    font-size: 2rem;
+}
+
+.card{
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:8rem;
+    text-align: center;
+    width:9rem;
+    background-color: #CEB4A6;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    border: 2px solid blueviolet;
+}
+
+.card p{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin:50px;
+    color:blueviolet;
+}
+
+ol{
+    width:80%;
+    margin:0 10rem;
+    line-height: 1.8rem;
+}
+
+ol li{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+span{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#facts{
+    display: flex;
+    gap:80px;
+}
+
+.image{
+    height:310px;
+    background: url("./Assets/pets/fact.jpg");
+    background-size: cover;
+    width:450px;
+    position: relative;
+    right: -60px;
+    border: 4px solid rgba(137, 43, 226, 0.712);
+    border-radius: 30px;
+}
+
+#pets{
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px;
+    justify-content: space-around;
+    gap:50px;
+}
+
+.pet{
+    border:2px solid transparent;
+    height:300px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width:250px;
+    background-color: white;
+    background-size: cover;
+}
+
+.pet img{
+    border-radius: 15px;
+    height:85%;
+    width:100%;
+}
+
+.pet:hover{
+    border:2px solid blueviolet;
+    cursor: pointer;
+}
+
+#footer{
+    height:400px;
+    width:100%;
+    background-color: gray;
+    padding:20px;
+}
+
+#footer h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.ul li{
+    list-style: none;
+    line-height: 1.7rem;;
+}
+
+a{
+    text-decoration: none;
+}
+
+.f{
+    display: flex;
+    justify-content: space-around;
+}
